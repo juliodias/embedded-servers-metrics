@@ -1,0 +1,9 @@
+configurations {
+	compile.exclude module: 'spring-boot-starter-tomcat'
+}
+
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	compile 'org.springframework.boot:spring-boot-starter-jetty'
+}
+

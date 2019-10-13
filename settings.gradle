@@ -1,0 +1,5 @@
+rootProject.name = 'embedded-servers-metrics'
+
+include 'hello-tomcat-server'
+include 'hello-jetty-server'
+include 'hello-undertow-server'
